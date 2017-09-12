@@ -1,26 +1,8 @@
-
-
-<html lang="ar">
-<head>
-<meta charset="UTF-8" />
-<title>Canlı TV izle</title>
-<meta name="robots" content="noindex" />
-<style>.jw-rightclick ul{display:none;}</style>
-</head>
-
-<body style="margin: 0px;background-color: black;">
-
-			<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js?v=1.2"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js?v=1.2"></script>
 <link href="https://canlitv.co/player/skins/tube.min.css" rel="stylesheet" type="text/css" />
 <script src="https://canlitv.co/player/jwplayer.js"></script>
 <script type="text/javascript">jwplayer.key = "WbtWzGvcRNi6Tk+gtKldIbx+nn6lXZFvKiaO2g==";</script>
-	<!-- player -->
-                <div class="player" id="tvport">
-
-                    Bekleyiniz..
-                </div>
-
-				<script type="text/javascript">
+<script type="text/javascript">
 					var color_active = "#FD5559";
 					var color_inactive = "#ffffff";
 					jwplayer("tvport").setup({
@@ -42,5 +24,3 @@
 						primary: 'html5'
 						  });
 </script>
-				</body>
-</html>
